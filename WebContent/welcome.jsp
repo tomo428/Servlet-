@@ -4,12 +4,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>HelloServlet</title>
+<title>WELCOME</title>
 </head>
 <body>
 
-<input type="button" value="HelloServlet" onClick="location.href='HelloServlet'">
-<input type="button" value="WelcomeServlet" onClick="locatino.href='welcome.jps'">
+名前とパスワードを入力してください。
+<form method="post" action="WelcomeServlet">
+	<input type="text" name="username">
+	<input type="password" name="password">
+	<input type="submit value="送信">
+</form>
 
 </body>
 </html>
