@@ -12,8 +12,8 @@ public class HelloServlet extends HttpServlet {
 	public HelloServlet() {
 		super();
 	}
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws
-	ServletException, IOException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+	throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
 		out.println("<HTML>");
 		out.println("<BODY>");
